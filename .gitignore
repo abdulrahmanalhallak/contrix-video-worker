@@ -1,0 +1,7 @@
+# Never commit anything holding a RunPod / Gemini key
+test_serverless.py
+results.csv
+*.env
+*.key
+*.png
+*.mp4

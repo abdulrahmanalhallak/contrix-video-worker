@@ -1,0 +1,8 @@
+# The network volume "Contrix-Video" mounts at /runpod-volume on serverless workers.
+# Models live under runpod-slim/ComfyUI/models/ inside that volume.
+contrix_volume:
+    base_path: /runpod-volume/runpod-slim/ComfyUI/
+    diffusion_models: models/diffusion_models
+    text_encoders: models/text_encoders
+    vae: models/vae
+    loras: models/loras
